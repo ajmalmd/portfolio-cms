@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "SpiceBay",
+    "main_img": "/images/projects/spicebay.png",
+    "live_url": "https://example.com"
+  },
+  {
+    "id": 2,
+    "title": "Delta 1",
+    "main_img": "/images/projects/delta1.png",
+    "live_url": "https://example.com"
+  }
+]

@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: ajmalmd/portfolio-cms
+  branch: main
+
+media_folder: "public/images/projects"
+public_folder: "/images/projects"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+
+    files:
+      - file: "src/data/projects.json"
+        label: "Projects Data"
+        name: "projects"
+
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "number"
+
+              - label: "Title"
+                name: "title"
+                widget: "string"
+
+              - label: "Project Image"
+                name: "main_img"
+                widget: "image"
+
+              - label: "Live URL"
+                name: "live_url"
+                widget: "string"
