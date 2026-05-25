@@ -1,4 +1,4 @@
-import projects from "./data/projects.json";
+import data from "./data/projects.json";
 import ProjectCard from "./components/ProjectCard";
 import "./App.css";
 
@@ -8,7 +8,7 @@ function App() {
       <h1>My Projects</h1>
 
       <div className="grid">
-        {projects.map((project) => (
+        {data.projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
