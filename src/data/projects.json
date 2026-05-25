@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": 3,
+      "title": "Diagram IO",
+      "main_img": "/images/projects/database-design.png",
+      "live_url": "https://dbdiagram.io/"
+    },
+    {
       "id": 1,
       "title": "SpiceBay",
       "main_img": "/images/projects/spicebay.png",
@@ -11,12 +17,6 @@
       "title": "Delta 1",
       "main_img": "/images/projects/delta1.png",
       "live_url": "https://example.com"
-    },
-    {
-      "id": 3,
-      "title": "Diagram IO",
-      "main_img": "/images/projects/database-design.png",
-      "live_url": "https://dbdiagram.io/"
     }
   ]
 }
