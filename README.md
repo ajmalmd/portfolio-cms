@@ -291,7 +291,18 @@ Invite admin users by email.
 
 ---
 
-## 7. Access CMS Dashboard
+## 7. Accept CMS User Invitation
+
+Check the user's mail to accept the invitation.
+Make sure your accept url have '/admin' after the url and '/#invite_token'.
+If not '/admin' is there please add '/admin'.
+
+eg: The Invite accept link should like 'your_netlify_project_name.netlify.app/admin/#invite_token=...'
+
+---
+
+
+## 8. Access CMS Dashboard
 
 Open:
 
