@@ -11,6 +11,12 @@
       "title": "Delta 1",
       "main_img": "/images/projects/delta1.png",
       "live_url": "https://example.com"
+    },
+    {
+      "id": 3,
+      "title": "Facebook",
+      "main_img": "/images/projects/database-design.png",
+      "live_url": "https://dbdiagram.io/"
     }
   ]
 }
